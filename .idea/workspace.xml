@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="372c8a4a-1567-4914-829e-155cd192d93c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/trees/tree3.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/trees/tree5.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/trees/tree6.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/old/tree3.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/old/tree5.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/old/tree6.PNG" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,16 +28,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/PycharmProjects/PortfolioProjects/AutomateDinosaurGame&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/USER/PycharmProjects/PortfolioProjects/AutomateDinosaurGame"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\USER\PycharmProjects\PortfolioProjects\AutomateDinosaurGame" />
