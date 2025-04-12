@@ -1,21 +1,22 @@
 import pyautogui
 import time
 
-# Coordinates where trees appear , adjust based on your screen
-x, y = 280, 650 # 
+# Coordinates where trees appear, adjust as needed
+x, y = 380, 675
 
-# rgb color when area is clear
-clear_color = (83, 83, 83)  
+# RGB color when area is clear
+clear_color = (83, 83, 83)
+
+def color_match(c1, c2, tolerance=5 ):
+    return all(abs(a - b) <= tolerance for a, b in zip(c1, c2))
 
 while True:
-    # get the color of the pixel
     current_color = pyautogui.pixel(x, y)
-    # print("looking for the color")
-    # if the color changes, jump
-    if current_color == clear_color:
-        print(f"current color - {current_color}, cler color - {clear_color}")
-        # break
-        pyautogui.press('space')
-        # time.sleep(0.1)  # to prevent multiple jumps for the same tree
+    print(f"Mouse at ({x},{y}), current color: {current_color}")
 
-    time.sleep(0.05)  # to avoid CPU overload
+    if color_match(current_color, clear_color) is True:
+        print("Obstacle detected, jumping!")
+        pyautogui.press('space')
+        # break  # remove this if you want it to keep running
+
+    time.sleep(0.05)
